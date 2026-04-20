@@ -1,5 +1,8 @@
 # neurocad-benchmarks
 
+[![Benchmark Validation](https://github.com/neurocad-eu/neurocad-benchmarks/actions/workflows/validate.yml/badge.svg)](https://github.com/neurocad-eu/neurocad-benchmarks/actions/workflows/validate.yml)
+[![Release](https://img.shields.io/github/v/release/neurocad-eu/neurocad-benchmarks)](https://github.com/neurocad-eu/neurocad-benchmarks/releases)
+
 Public benchmark artifacts, evaluation notes, and selected datasets for NeuroCAD.
 
 ## Purpose
@@ -38,12 +41,22 @@ As public benchmark releases are published, this repository will be organized ar
 - `protocols/` for evaluation methodology
 - `releases/` for versioned release notes
 - `docs/` for benchmark documentation and interpretation
+- `scripts/` for validation and packaging
+- `checksums/` for release integrity material
 
 ## Status
 
 Initial public scaffold.
 
 The repository is being prepared to host selected benchmark artifacts that represent NeuroCAD's evaluation discipline without disclosing the full internal system.
+
+Current public artifacts include:
+
+- sample benchmark manifest and metadata
+- selected case descriptors
+- public manifest schema
+- evaluation protocol and data card
+- release packaging and validation workflow
 
 ## Links
 

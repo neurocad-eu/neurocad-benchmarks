@@ -1,0 +1,1 @@
+cc24c23680a5221e61d803c0e0a21121a2a0ea7971b2ac5d87972877fd8ea189  neurocad-benchmarks-sample-set-v0.2.0.zip
