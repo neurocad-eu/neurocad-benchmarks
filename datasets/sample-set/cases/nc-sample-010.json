@@ -1,0 +1,15 @@
+{
+  "case_id": "nc-sample-010",
+  "family": "lattice-core",
+  "task": "field-inference",
+  "material_class": "titanium",
+  "inputs": {
+    "cell_size_mm": 6,
+    "shell_thickness_mm": 1.8,
+    "gradient_mode": "axial"
+  },
+  "targets": {
+    "artifact_format": "json",
+    "artifact_kind": "field"
+  }
+}

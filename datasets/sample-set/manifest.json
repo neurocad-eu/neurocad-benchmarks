@@ -1,0 +1,22 @@
+{
+  "release": "sample-set-v0.1.0",
+  "repository": "neurocad-benchmarks",
+  "created_at": "2026-04-20",
+  "schema_version": "1.0.0",
+  "description": "Selected public benchmark subset for NeuroCAD packaging and evaluation review.",
+  "case_count": 12,
+  "cases": [
+    {"case_id": "nc-sample-001", "family": "bracket", "task": "field-inference", "material_class": "aluminum", "difficulty": "baseline"},
+    {"case_id": "nc-sample-002", "family": "bracket", "task": "mesh-generation", "material_class": "aluminum", "difficulty": "baseline"},
+    {"case_id": "nc-sample-003", "family": "manifold", "task": "solver-export", "material_class": "steel", "difficulty": "moderate"},
+    {"case_id": "nc-sample-004", "family": "manifold", "task": "field-inference", "material_class": "steel", "difficulty": "moderate"},
+    {"case_id": "nc-sample-005", "family": "housing", "task": "mesh-generation", "material_class": "polymer", "difficulty": "moderate"},
+    {"case_id": "nc-sample-006", "family": "housing", "task": "solver-export", "material_class": "polymer", "difficulty": "moderate"},
+    {"case_id": "nc-sample-007", "family": "heat-sink", "task": "field-inference", "material_class": "copper", "difficulty": "advanced"},
+    {"case_id": "nc-sample-008", "family": "heat-sink", "task": "mesh-generation", "material_class": "copper", "difficulty": "advanced"},
+    {"case_id": "nc-sample-009", "family": "lattice-core", "task": "solver-export", "material_class": "titanium", "difficulty": "advanced"},
+    {"case_id": "nc-sample-010", "family": "lattice-core", "task": "field-inference", "material_class": "titanium", "difficulty": "advanced"},
+    {"case_id": "nc-sample-011", "family": "flow-junction", "task": "mesh-generation", "material_class": "stainless-steel", "difficulty": "advanced"},
+    {"case_id": "nc-sample-012", "family": "flow-junction", "task": "solver-export", "material_class": "stainless-steel", "difficulty": "advanced"}
+  ]
+}

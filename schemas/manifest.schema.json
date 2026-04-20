@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NeuroCAD Sample Benchmark Manifest",
+  "type": "object",
+  "required": [
+    "release",
+    "repository",
+    "created_at",
+    "schema_version",
+    "case_count",
+    "cases"
+  ],
+  "properties": {
+    "release": {"type": "string"},
+    "repository": {"type": "string"},
+    "created_at": {"type": "string"},
+    "schema_version": {"type": "string"},
+    "description": {"type": "string"},
+    "case_count": {"type": "integer", "minimum": 1},
+    "cases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["case_id", "family", "task", "material_class", "difficulty"],
+        "properties": {
+          "case_id": {"type": "string"},
+          "family": {"type": "string"},
+          "task": {"type": "string"},
+          "material_class": {"type": "string"},
+          "difficulty": {"type": "string"}
+        }
+      }
+    }
+  }
+}

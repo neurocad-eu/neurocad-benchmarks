@@ -1,0 +1,15 @@
+{
+  "case_id": "nc-sample-001",
+  "family": "bracket",
+  "task": "field-inference",
+  "material_class": "aluminum",
+  "inputs": {
+    "mount_spacing_mm": 72,
+    "thickness_mm": 8,
+    "rib_count": 2
+  },
+  "targets": {
+    "artifact_format": "json",
+    "artifact_kind": "field"
+  }
+}

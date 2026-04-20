@@ -1,0 +1,13 @@
+case_id,family,task,material_class,difficulty,bbox_mm,artifact_format
+nc-sample-001,bracket,field-inference,aluminum,baseline,120x80x35,json
+nc-sample-002,bracket,mesh-generation,aluminum,baseline,120x80x35,obj
+nc-sample-003,manifold,solver-export,steel,moderate,160x110x70,zip
+nc-sample-004,manifold,field-inference,steel,moderate,160x110x70,json
+nc-sample-005,housing,mesh-generation,polymer,moderate,180x140x90,obj
+nc-sample-006,housing,solver-export,polymer,moderate,180x140x90,zip
+nc-sample-007,heat-sink,field-inference,copper,advanced,95x95x45,json
+nc-sample-008,heat-sink,mesh-generation,copper,advanced,95x95x45,obj
+nc-sample-009,lattice-core,solver-export,titanium,advanced,210x210x110,zip
+nc-sample-010,lattice-core,field-inference,titanium,advanced,210x210x110,json
+nc-sample-011,flow-junction,mesh-generation,stainless-steel,advanced,240x160x120,obj
+nc-sample-012,flow-junction,solver-export,stainless-steel,advanced,240x160x120,zip

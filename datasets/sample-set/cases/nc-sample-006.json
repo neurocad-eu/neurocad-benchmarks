@@ -1,0 +1,15 @@
+{
+  "case_id": "nc-sample-006",
+  "family": "housing",
+  "task": "solver-export",
+  "material_class": "polymer",
+  "inputs": {
+    "wall_thickness_mm": 4.5,
+    "boss_count": 6,
+    "mount_regions": 3
+  },
+  "targets": {
+    "artifact_format": "zip",
+    "artifact_kind": "export-bundle"
+  }
+}
