@@ -24,3 +24,11 @@ jobs:
 
       - name: Validate benchmark package
         run: python scripts/validate_release.py
+
+      - name: Build benchmark archive
+        run: bash scripts/package_release.sh
+
+      - name: Ensure enterprise docs exist
+        run: |
+          test -f docs/release-policy.md
+          test -f docs/provenance.md

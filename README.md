@@ -44,11 +44,28 @@ As public benchmark releases are published, this repository will be organized ar
 - `scripts/` for validation and packaging
 - `checksums/` for release integrity material
 
+## Core public documents
+
+- `protocols/evaluation.md`
+- `docs/data-card.md`
+- `docs/methodology.md`
+- `docs/limitations.md`
+- `docs/release-policy.md`
+- `docs/provenance.md`
+
+## Operational signals
+
+This repository now exposes:
+
+- versioned benchmark release notes
+- release checksum material
+- packaging and validation scripts
+- stable public case identifiers
+- explicit methodology and provenance notes
+
 ## Status
 
-Initial public scaffold.
-
-The repository is being prepared to host selected benchmark artifacts that represent NeuroCAD's evaluation discipline without disclosing the full internal system.
+Public benchmark surface in active hardening.
 
 Current public artifacts include:
 

@@ -25,10 +25,14 @@ def main() -> None:
     case_count = manifest["case_count"]
     assert case_count == len(manifest["cases"]), "Manifest case_count mismatch"
     assert case_count == len(rows), "Metadata row count mismatch"
+    assert manifest["release"].startswith("sample-set-v0."), "Unexpected release naming"
 
     manifest_ids = {case["case_id"] for case in manifest["cases"]}
     metadata_ids = {row["case_id"] for row in rows}
     assert manifest_ids == metadata_ids, "Manifest and metadata case IDs differ"
+
+    release_notes = ROOT / "releases" / f'{manifest["release"].replace("sample-set-", "")}.md'
+    assert release_notes.exists(), "Release notes missing for manifest release"
 
     print(f"Validated benchmark release with {case_count} cases")
 

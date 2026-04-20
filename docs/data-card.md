@@ -3,7 +3,7 @@
 ## Dataset identity
 
 - name: NeuroCAD Sample Set
-- release: `v0.1.0`
+- release: `v0.3.0`
 - type: public benchmark subset
 
 ## Intended audience
